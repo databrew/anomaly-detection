@@ -6,10 +6,10 @@ RUN apt-get update -y\
     && apt-get install -y git
 
 # clone github repository
-RUN git clone https://github.com/databrew/anomaly-detection.git /root/anomaly_detection
+RUN git clone https://github.com/databrew/anomaly-detection.git /root/anomaly-detection
 
 # use the bohemia kenya work directory
-WORKDIR /root/anomaly_detection
+WORKDIR /root/anomaly-detection
 
 # use renv to replicate
 ENV RENV_VERSION 0.16.0
