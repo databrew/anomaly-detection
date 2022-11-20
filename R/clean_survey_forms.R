@@ -5,6 +5,7 @@ library(magrittr)
 library(purrr)
 library(tidyr)
 library(data.table)
+library(glue)
 source('R/utils.R')
 source('R/cleaning_functions.R')
 
@@ -13,9 +14,12 @@ cf <- config::get()
 
 # Kwale Registration Forms
 filename <- tempfile()
+bucket_name <- glue::glue(
+  Sys.getenv('BUCKET_PREFIX'),
+  cf$kwale$registration$s3$bucket_name) # add prefix to differentiate prod/test
 get_s3_data(
   s3obj = svc,
-  bucket= cf$kwale$registration$s3$bucket_name,
+  bucket= bucket_name,
   object_key = cf$kwale$registration$s3$keys$raw_input,
   filename = filename) %>%
   fread(.) %>%
@@ -31,11 +35,14 @@ save_to_s3_bucket(
 
 # Kwale Household Forms
 filename <- tempfile()
+bucket_name <- glue::glue(
+  Sys.getenv('BUCKET_PREFIX'),
+  cf$kwale$household$s3$bucket_name) # add prefix to differentiate prod/test
 get_s3_data(
   s3obj = svc,
-  bucket= cf$kwale$household$s3$bucket_name,
+  bucket= bucket_name,
   object_key = cf$kwale$household$s3$keys$raw_input,
-  filename = tempfile()) %>%
+  filename = filename) %>%
   fread(.) %>%
   as_tibble(.name_repair = 'unique') %>%
   clean_kwale_household_forms(.) %>%
@@ -43,6 +50,6 @@ get_s3_data(
 save_to_s3_bucket(
   s3obj = svc,
   file_path = filename,
-  bucket_name = cf$kwale$household$s3$bucket_name,
+  bucket_name = bucket_name,
   object_key = cf$kwale$household$s3$keys$clean_output)
 

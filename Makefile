@@ -9,4 +9,4 @@ update:
 
 # run scripts
 scripts:
-	Rscript R/cleaning_survey_forms.R
+	Rscript R/clean_survey_forms.R
