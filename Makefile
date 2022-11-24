@@ -10,3 +10,4 @@ update:
 # run scripts
 scripts:
 	Rscript R/clean_survey_forms.R
+	Rscript R/run_anomaly_identification.R

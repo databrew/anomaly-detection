@@ -1,16 +1,15 @@
 default:
+  bucket_name: 'databrew.org'
   kwale:
     household:
       s3:
-        bucket_name: 'databrew.org'
         keys:
-          raw_input: "kwale/raw-form/reconbhousehold/reconbhousehold.csv"
-          anomaly: "kwale/anomaly/reconbhousehold/reconbhousehold.csv"
-          clean_output: "kwale/clean-form/reconbhousehold/reconbhousehold.csv"
+          raw: "kwale/raw-form/reconbhouseholdtraining/reconbhouseholdtraining.csv"
+          anomaly: "kwale/anomaly/reconbhouseholdtraining/reconbhouseholdtraining.csv"
+          clean: "kwale/clean-form/reconbhouseholdtraining/reconbhouseholdtraining.csv"
     registration:
       s3:
-        bucket_name: 'databrew.org'
         keys:
-          raw_input: "kwale/raw-form/reconaregistration/reconaregistration.csv"
-          anomaly: "kwale/anomaly/reconaregistration/reconaregistration.csv"
-          clean_output: "kwale/clean-form/reconaregistration/reconaregistration.csv"
+          raw: "kwale/raw-form/reconaregistrationtraining/reconaregistrationtraining.csv"
+          anomaly: "kwale/anomaly/reconaregistrationtraining/reconaregistrationtraining.csv"
+          clean: "kwale/clean-form/reconaregistrationtraining/reconaregistrationtraining.csv"
