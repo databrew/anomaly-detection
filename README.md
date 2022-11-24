@@ -1,7 +1,6 @@
-# anomaly-detection
+# DataBrew ODK Anomaly Detection
 
-This repository is used for DataBrew ODK forms anomaly detection
-
+This repository is used for DataBrew ODK forms anomaly detection. Survey forms will be processed through data cleaning process and anomaly identification. This process will going through continuous iteration to increase survey data quality.
 
 ## Reproducing Environment
 
