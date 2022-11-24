@@ -36,4 +36,7 @@ Once function is created, append your function in [here]('R/run_anomaly_identifi
 ### Deploying your Changes
 Github repository has been integrated with Github Actions, to deploy changes to Dockerhub do `git push` to this repo `main` branch
 
+## References
+- [Anomaly detection Google Sheets](https://docs.google.com/spreadsheets/d/1kcTXqt2SREr9J4XQLFsLdXLfzcQPkQM8RHXI_-SUe_4/edit#gid=0)
+
 
