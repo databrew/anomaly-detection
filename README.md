@@ -26,9 +26,9 @@ The above command will reproduce the analysis environment used for data stored i
 ## Contributing
 
 ### Data Cleaning Functions
-All data cleaning functions are [here]('R/cleaning_functions.R'). 
-Once function is created, append your function in [here]('R/clean_survey_forms.R')
+All data cleaning functions are [here](R/data_cleaning_functions.R). 
+Once function is created, append your function in [here](R/clean_survey_forms.R)
 
 ### Anomaly Detection Functions
-All anomaly detection functions are [here]('R/anomaly_detection_function.R'). To add more anomaly identification procedure, create a new function that takes in registration/household data that returns a tibble dataframe with these 3 columns `type`, `anomaly_id`, `description`. 
-Once function is created, append your function in [here]('R/run_anomaly_identification.R')
+All anomaly detection functions are [here](R/anomaly_detection_function.R). To add more anomaly identification procedure, create a new function that takes in registration/household data that returns a tibble dataframe with these 3 columns `type`, `anomaly_id`, `description`. 
+Once function is created, append your function in [here]('R/run_anomaly_identification.R)
