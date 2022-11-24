@@ -25,6 +25,14 @@ The above command will reproduce the analysis environment used for data stored i
 
 ## Contributing
 
+To contribute, design your new feature in a new branch and create a PR to the main branch when ready
+
+### Create new branch
+```r
+git checkout -b [name_of_your_new_branch]
+git push origin [name_of_your_new_branch]
+```
+
 ### Data Cleaning Functions
 All data cleaning functions are [here](R/data_cleaning_functions.R). 
 Once function is created, append your function in [here](R/clean_survey_forms.R)
@@ -34,7 +42,7 @@ All anomaly detection functions are [here](R/anomaly_detection_function.R). To a
 Once function is created, append your function in [here]('R/run_anomaly_identification.R)
 
 ### Deploying your Changes
-Github repository has been integrated with Github Actions, to deploy changes to Dockerhub do `git push` to this repo `main` branch
+Github repository has been integrated with Github Actions, doing `git push` to this repo `main` branch will automatically sync with (DockerhHb)[https://hub.docker.com/r/databrewllc/anomaly-detection]
 
 ## References
 - [Anomaly detection Google Sheets](https://docs.google.com/spreadsheets/d/1kcTXqt2SREr9J4XQLFsLdXLfzcQPkQM8RHXI_-SUe_4/edit#gid=0)
