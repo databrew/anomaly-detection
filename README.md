@@ -32,3 +32,8 @@ Once function is created, append your function in [here](R/clean_survey_forms.R)
 ### Anomaly Detection Functions
 All anomaly detection functions are [here](R/anomaly_detection_function.R). To add more anomaly identification procedure, create a new function that takes in registration/household data that returns a tibble dataframe with these 3 columns `type`, `anomaly_id`, `description`. 
 Once function is created, append your function in [here]('R/run_anomaly_identification.R)
+
+### Deploying your Changes
+Github repository has been integrated with Github Actions, to deploy changes to Dockerhub do `git push` to this repo `main` branch
+
+
