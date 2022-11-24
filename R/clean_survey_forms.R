@@ -7,7 +7,7 @@ library(tidyr)
 library(data.table)
 library(glue)
 source('R/utils.R')
-source('R/cleaning_functions.R')
+source('R/data_cleaning_functions.R')
 
 svc <- paws::s3()
 
