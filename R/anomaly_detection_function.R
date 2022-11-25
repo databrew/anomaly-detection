@@ -27,9 +27,6 @@ get_identical_cha_chv <- function(data){
                   chv_instance = `instanceID`)
 
   chv <- data %>%
-    mutate(wid_cha = ifelse(is.na(`cha_wid_qr`),
-                            `wid_manual`,
-                            `wid_qr`)) %>%
     dplyr::filter(worker_type == 'CHA') %>%
     dplyr::select(`id` = `wid`,
                   cha_instance = `instanceID`)
@@ -65,5 +62,49 @@ get_duplicated_hh_id <- function(data) {
                     ' household form, but Household IDs should be unique',
                     ' and therefore only entered once.')) %>%
     dplyr::select(type, anomaly_id, description)
+}
+
+
+#' This function is used for getting Mismatch between number of CHVs
+#' that indicate a CHA as their supervisor and the number of
+#' reported CHVs supervised by a CHA
+#' @data registration data
+#' @return tibble with column type, anomaly_id, description
+get_mistmached_cha_chv_numbers <- function(data){
+  #' get number of cha supervision as reported from CHV
+  n_by_chv <- data %>%
+    mutate(wid_cha = ifelse(is.na(cha_wid_qr), cha_wid_manual, cha_wid_qr)) %>%
+    dplyr::filter(worker_type == 'CHV') %>%
+    dplyr::select(wid_cha, wid, instanceID) %>%
+    dplyr::group_by(wid_cha) %>%
+    dplyr::summarise(number_chv_supervise = n_distinct(wid),
+                     instances = paste0(sort(unique(`instanceID`)), collapse = ';')) %>%
+    dplyr::select(wid = wid_cha, number_chv_supervise, instances)
+
+  #' get number of cha supervision as reported from CHA
+  n_by_cha <- data %>%
+    dplyr::filter(worker_type == 'CHA') %>%
+    dplyr::select(wid, number_chv_supervise, instances = instanceID)
+
+  #' create mismatch report by joining the two summary tables
+  #' and search for mismatch in reported numbers
+  mismatch <- n_by_cha %>%
+    dplyr::inner_join(n_by_chv, by = c('wid')) %>%
+    dplyr::mutate(
+      number_chv_supervise.x = tidyr::replace_na(number_chv_supervise.x, 0),
+      number_chv_supervise.y = tidyr::replace_na(number_chv_supervise.y, 0),
+      is_mismatch = ifelse(
+        number_chv_supervise.x != number_chv_supervise.y, TRUE, FALSE),
+      instances = glue::glue("{instances.x};{instances.y}")) %>%
+    dplyr::filter(is_mismatch) %>%
+    dplyr::mutate(type = 'recona_mismatch_cha_supervise_chv',
+                  anomaly_id = glue::glue("{type}_{instances}"),
+                  description = glue::glue(
+                    'CHA ID:{wid} reported {number_chv_supervise.x} of CHVs supervised.',
+                    ' However CHVs reported that {wid} is supervising {number_chv_supervise.y} CHVs')) %>%
+    dplyr::select(type, anomaly_id, description)
+
+  return(mismatch)
+
 }
 

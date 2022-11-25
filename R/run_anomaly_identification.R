@@ -55,7 +55,9 @@ anomaly_list <- dplyr::bind_rows(
   reconaregistration %>%
     get_identical_cha_chv(.),
   reconbhousehold %>%
-    get_duplicated_hh_id(.)
+    get_duplicated_hh_id(.),
+  reconaregistration %>%
+    get_mistmached_cha_chv_numbers(.)
   ###############################################################
   # append more here, place function in anomaly_detection_function
   ###############################################################

@@ -1,3 +1,10 @@
+#' @description Function for retrieving files from S3
+#'
+#' @param s3obj instantiate s3 object
+#' @param bucket bucket name
+#' @param object_key object key
+#' @param filename output filename
+#' @return saved local filename
 get_s3_data <- function(s3obj = NULL, bucket, object_key, filename){
   s3obj$download_file(
     Bucket= bucket,
