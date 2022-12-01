@@ -11,8 +11,8 @@ source('R/anomaly_detection_function.R')
 
 svc <- paws::s3()
 S3_BUCKET_NAME <- 'databrew.org'
-HH_S3_FILE_KEY <- 'kwale/clean-form/reconbhouseholdtraining/reconbhouseholdtraining.csv'
-REGISTRATION_S3_FILE_KEY <- "kwale/clean-form/reconaregistrationtraining/reconaregistrationtraining.csv"
+HH_S3_FILE_KEY <- 'kwale/clean-form/reconbhousehold/reconbhousehold.csv'
+REGISTRATION_S3_FILE_KEY <- "kwale/clean-form/reconaregistration/reconaregistration.csv"
 ANOMALIES_S3_FILE_KEY <- "kwale/anomalies/anomalies.csv"
 
 
@@ -71,6 +71,6 @@ anomaly_list %>%
 save_to_s3_bucket(
   s3obj = svc,
   file_path = filename,
-  bucket_name = S3_BUCKET_NAME,
+  bucket_name = bucket_name,
   object_key = ANOMALIES_S3_FILE_KEY)
 
