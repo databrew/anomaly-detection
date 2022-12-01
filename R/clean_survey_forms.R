@@ -12,10 +12,10 @@ source('R/data_cleaning_functions.R')
 svc <- paws::s3()
 
 S3_BUCKET_NAME <- 'databrew.org'
-RAW_HH_S3_FILE_KEY <- 'kwale/raw-form/reconbhouseholdtraining/reconbhouseholdtraining.csv'
-CLEAN_HH_S3_FILE_KEY <- 'kwale/clean-form/reconbhouseholdtraining/reconbhouseholdtraining.csv'
-RAW_REGISTRATION_S3_FILE_KEY <- "kwale/raw-form/reconaregistrationtraining/reconaregistrationtraining.csv"
-CLEAN_REGISTRATION_S3_FILE_KEY <- "kwale/clean-form/reconaregistrationtraining/reconaregistrationtraining.csv"
+RAW_HH_S3_FILE_KEY <- 'kwale/raw-form/reconbhousehold/reconbhousehold.csv'
+CLEAN_HH_S3_FILE_KEY <- 'kwale/clean-form/reconbhousehold/reconbhousehold.csv'
+RAW_REGISTRATION_S3_FILE_KEY <- "kwale/raw-form/reconaregistration/reconaregistration.csv"
+CLEAN_REGISTRATION_S3_FILE_KEY <- "kwale/clean-form/reconaregistration/reconaregistration.csv"
 
 # Kwale Registration Forms
 filename <- tempfile()
