@@ -33,7 +33,7 @@ clean_household_data <- function(data){
 #' @param data registration forms
 #' @return clean registration form
 clean_registration_data <- function(data){
-  data %>%
+  data <- data %>%
     # Anomaly Resolution Dec/02/2022
     # Trello: https://trello.com/c/oGY3UC6Z/1654-implement-isaiahs-ad-hoc-change-requests
     # Submitted by Isaiah
