@@ -21,12 +21,10 @@ ANOMALIES_S3_FILE_KEY <- "kwale/anomalies/anomalies.csv"
 get_registration_data <- function(){
   # Kwale Registration Forms
   filename <- tempfile()
-  bucket_name <- glue::glue(
-    Sys.getenv('BUCKET_PREFIX'),
-    S3_BUCKET_NAME) # add prefix to differentiate prod/test
+  bucket_name <- S3_BUCKET_NAME
   get_s3_data(
     s3obj = svc,
-    bucket= bucket_name,
+    bucket= S3_BUCKET_NAME,
     object_key = REGISTRATION_S3_FILE_KEY, # change this to clean data
     filename = filename) %>%
     fread(.) %>%
@@ -36,12 +34,9 @@ get_registration_data <- function(){
 get_household_data <- function(){
   # Kwale Registration Forms
   filename <- tempfile()
-  bucket_name <- glue::glue(
-    Sys.getenv('BUCKET_PREFIX'),
-    S3_BUCKET_NAME) # add prefix to differentiate prod/test
   get_s3_data(
     s3obj = svc,
-    bucket= bucket_name,
+    bucket= S3_BUCKET_NAME,
     object_key = HH_S3_FILE_KEY, # change this to clean data
     filename = filename) %>%
     fread(.) %>%

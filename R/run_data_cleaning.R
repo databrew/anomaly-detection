@@ -1,4 +1,5 @@
-#' This script is purposed to clean survey forms and save to s3
+#' @description: This script is purposed to clean survey forms and save to s3
+#' @author: atediarjo@gmail.com
 library(paws)
 library(dplyr)
 library(magrittr)
@@ -7,7 +8,7 @@ library(tidyr)
 library(data.table)
 library(glue)
 source('R/utils.R')
-source('R/data_cleaning_functions.R')
+source('R/data_cleaning_function.R')
 
 svc <- paws::s3()
 
@@ -29,7 +30,7 @@ registration <- get_s3_data(
   filename = filename) %>%
   fread(.) %>%
   as_tibble(.name_repair = 'unique') %>%
-  clean_kwale_registration_forms(.)
+  clean_registration_data(.)
 registration %>%
   write.csv(filename)
 save_to_s3_bucket(
@@ -51,7 +52,7 @@ get_s3_data(
   filename = filename) %>%
   fread(.) %>%
   as_tibble(.name_repair = 'unique') %>%
-  clean_kwale_household_forms(.) %>%
+  clean_household_data(.) %>%
   write.csv(filename)
 save_to_s3_bucket(
   s3obj = svc,
