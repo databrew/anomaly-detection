@@ -17,7 +17,6 @@ HH_S3_FILE_KEY <- 'kwale/clean-form/reconbhousehold/reconbhousehold.csv'
 REGISTRATION_S3_FILE_KEY <- "kwale/clean-form/reconaregistration/reconaregistration.csv"
 ANOMALIES_S3_FILE_KEY <- "kwale/anomalies/anomalies.csv"
 
-
 get_registration_data <- function(){
   # Kwale Registration Forms
   filename <- tempfile()
@@ -62,9 +61,9 @@ anomaly_list <- dplyr::bind_rows(
 
 
 # save data to s3
-filename <- tempfile()
+filename <- tempfile(fileext = ".csv")
 anomaly_list %>%
-  write.csv(filename)
+  fwrite(filename, row.names = FALSE)
 save_to_s3_bucket(
   s3obj = svc,
   file_path = filename,
