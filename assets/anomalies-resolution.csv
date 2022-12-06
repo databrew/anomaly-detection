@@ -1,123 +1,192 @@
-Form,instanceID,Column,Operation,Set To,Notes (If Operation = Others),Submitted By,Resolution Details
-registration,uuid:4393441c-6cd8-4971-93c1-6b4c0c81de1f,wid,SET,2042,,Isaiah,Anomalies Resolution 1
-registration,uuid:7c900d1a-909e-4e39-b2dd-001ac334479e,wid,DELETE,,,Isaiah,Anomalies Resolution 1
-registration,uuid:77b61879-8cd5-4d55-b4e5-ed7256cd97bc,wid,SET,2028,,Isaiah,Anomalies Resolution 1
-registration,uuid:b57d075b-270d-4827-85fc-0f0a374605c9,wid,SET,2011,,Isaiah,Anomalies Resolution 1
-registration,uuid:3757f2b9-271b-4ff9-ba42-3aa432b1fd60,wid,SET,2045,,Isaiah,Anomalies Resolution 1
-registration,uuid:dc005579-ce38-4ecf-8312-f36402611dd8,wid,DELETE,,,Isaiah,Anomalies Resolution 1
-registration,uuid:9a7bc546-d66b-46ce-afe5-b8d2143620c0,wid,DELETE,,,Isaiah,Anomalies Resolution 1
-registration,uuid:7c624b87-f10e-46e4-a17c-c47d8b426d44,wid,DELETE,,,Isaiah,Anomalies Resolution 1
-registration,uuid:ac320253-68ad-4003-949d-58411518ba41,wid,DELETE,,,Isaiah,Anomalies Resolution 1
-registration,uuid:ab4013f7-7091-43df-9285-7486a0a84f94,wid,DELETE,,,Isaiah,Anomalies Resolution 1
-registration,uuid:66dcc3ef-4d6b-4ef6-9b24-f4d36c3a565b,wid,DELETE,,,Isaiah,Anomalies Resolution 1
-registration,uuid:2f6c94a0-b7e9-47a8-b7e6-f9aae412cdc8,wid,DELETE,,,Isaiah,Anomalies Resolution 1
-registration,uuid:80bcc2de-56f9-44c4-8dfc-70c90cd43dfa,wid,DELETE,,,Isaiah,Anomalies Resolution 1
-registration,uuid:43c8f5f5-7f9a-4cf1-8d9c-67128cf80ab8,wid,DELETE,,,Isaiah,Anomalies Resolution 1
-registration,uuid:4f6cc00e-ff06-4daf-b16c-595a585bf74c,wid,DELETE,,,Isaiah,Anomalies Resolution 1
-registration,uuid:a5e72155-dab4-486f-87f9-104d004e8a22,wid,DELETE,,,Isaiah,Anomalies Resolution 1
-registration,uuid:91c0d545-5a3d-48e3-822c-170701ffe509,wid,DELETE,,,Isaiah,Anomalies Resolution 1
-household,uuid:83bbf26c-bf79-4049-b106-38f74dc4e485,hh_id,SET,AD-257,,Eldo,Anomalies Resolution 2
-household,uuid:604fb011-d2ef-4dda-affe-5b85d3c183bd,hh_id,SET,AD-217,,Eldo,Anomalies Resolution 2
-household,uuid:6d3c9ad3-78fb-4ec8-954f-1ad0bbde52a6,hh_id,SET,AD-227,,Eldo,Anomalies Resolution 2
-household,uuid:49ade55f-c78c-4294-ace6-27db43ca74c1,hh_id,SET,AD-503,,Eldo,Anomalies Resolution 2
-household,uuid:999cc19d-021c-4a90-bda1-5e925c9b23ff,hh_id,SET,AD-502,,Eldo,Anomalies Resolution 2
-household,uuid:f78431fc-f6e6-4195-a15d-55a31650281c,hh_id,SET,AD-504,,Eldo,Anomalies Resolution 2
-household,uuid:8f3324d5-a4b8-4b09-a12d-2d52f96e3231,hh_id,SET,AD-505,,Eldo,Anomalies Resolution 2
-household,uuid:dbc9607b-a5fd-4e91-aa2a-522582e95423,hh_id,SET,AD-506,,Eldo,Anomalies Resolution 2
-household,uuid:cd882e2a-104e-4359-8f4c-64259e5f1558,hh_id,SET,AD-507,,Eldo,Anomalies Resolution 2
-household,uuid:7014d4b4-cab2-4b82-9d7d-2751a601350d,hh_id,SET,AD-508,,Eldo,Anomalies Resolution 2
-household,uuid:23ec9239-190f-426d-9738-a45cb43b5040,hh_id,SET,AA-667,,Eldo,Anomalies Resolution 2
-household,uuid:e27419a1-24eb-45f2-a49c-384cc771112f,hh_id,SET,AA-708,,Eldo,Anomalies Resolution 2
-household,uuid:fad18375-0351-4ec2-b71e-89b1457f00bd,hh_id,SET,AA-710,,Eldo,Anomalies Resolution 2
-household,uuid:588631f6-f5c4-4e1d-9dca-f347513357e9,hh_id,SET,AA-709,,Eldo,Anomalies Resolution 2
-household,uuid:fc540424-51ba-4214-8357-64e31529c667,hh_id,SET,AK-838,,Eldo,Anomalies Resolution 2
-household,uuid:0a2c6287-758e-40f2-b353-535d93631080,hh_id,SET,AM-245,,Eldo,Anomalies Resolution 2
-household,uuid:5d76c976-d4f2-46f7-9183-29eb4498e6dc,hh_id,SET,AC-614,,Eldo,Anomalies Resolution 2
-household,uuid:2941ee91-343a-4090-b6b5-c16138cfcd0b,hh_id,SET,AC-701,,Eldo,Anomalies Resolution 2
-household,uuid:c5a24774-1a1b-4ab9-9fac-bb63e26e9b49,hh_id,SET,AC-702,,Eldo,Anomalies Resolution 2
-household,uuid:3f194d5a-5600-414a-86ee-bd1c51d67981,hh_id,SET,AC-703,,Eldo,Anomalies Resolution 2
-household,uuid:ea702f10-9bfc-4aed-951d-15d99cc571a7,hh_id,SET,AC-704,,Eldo,Anomalies Resolution 2
-household,uuid:0c18cb28-cc64-4fc5-b267-61a03edbec4f,hh_id,SET,AC-705,,Eldo,Anomalies Resolution 2
-household,uuid:47a8688f-09a9-4685-baa7-0eb010316c33,hh_id,SET,AC-706,,Eldo,Anomalies Resolution 2
-household,uuid:275b7078-0679-4763-83e6-a9552e717945,hh_id,SET,AD-709,,Eldo,Anomalies Resolution 2
-household,uuid:ca3fe5f4-486f-4c5d-a25e-99095747c3f4,hh_id,SET,AD-710,,Eldo,Anomalies Resolution 2
-household,uuid:1303461a-39da-48ec-b42d-a4050dffbbf6,hh_id,SET,AD-664,,Eldo,Anomalies Resolution 2
-household,uuid:9c8fb6b3-37ef-43d5-a2e3-ef551ef3c650,hh_id,SET,AD-711,,Eldo,Anomalies Resolution 2
-household,uuid:021310e0-7796-4d89-985f-c8dace46d053,hh_id,SET,AD-676,,Eldo,Anomalies Resolution 2
-household,uuid:428adba9-8714-4e5d-85bb-428bcdb85974,hh_id,DELETE,,,Eldo,Anomalies Resolution 2
-household,uuid:428adba9-8714-4e5d-85bb-428bcdb85974,hh_id,DELETE,,,Eldo,Anomalies Resolution 2
-household,uuid:e62f0d59-e867-4750-a11b-3e27fba6f961,hh_id,SET,BA-801,,Isaiah,Anomalies Resolution 3
-household,uuid:e43e0fd2-42f9-49eb-87fb-7067010ed7d0,hh_id,SET,AM-954,,Isaiah,Anomalies Resolution 3
-household,uuid:80d7c59a-4067-466a-ba5b-3c8c30b46440,hh_id,SET,BA-805,,Isaiah,Anomalies Resolution 3
-household,uuid:3cf18d52-93a9-46a7-a471-5dabab86c2b5,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:546d3110-a2b2-4d3b-837c-003c74f017d3,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:deb7c6f3-bf73-463f-b640-b4c69a7549af,hh_id,SET,AF-408,,Isaiah,Anomalies Resolution 3
-household,uuid:f790b652-3c60-48b2-92f2-4c939b81a83e,hh_id,SET,AF-410,,Isaiah,Anomalies Resolution 3
-household,uuid:c1ef11bd-303d-439c-a690-af30ee74dc29,hh_id,SET,AF-427,,Isaiah,Anomalies Resolution 3
-household,uuid:174ba73d-1d0b-495c-b577-bc7352b2501c,hh_id,SET,AF-412,,Isaiah,Anomalies Resolution 3
-household,uuid:3f02bc1b-0418-40be-abd2-b861ce5b7962,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:dde62f40-5f7c-4426-bd97-a2810290e990,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:662538ea-4942-4e9b-816d-396cf0414576,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:c7d6cf19-9c25-49dd-a28b-a81a04e5c972,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:9400e6ad-fbd4-40e4-b0e1-76a678a536d4,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:da979b4b-6807-48d6-88e3-e77c1274b872,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:06a68d0a-a778-4896-b11e-e65952559805,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:ef5bc8ba-c2ac-4ed1-8cdd-1486740b05b8,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:97ed2e03-2bb1-4295-a3d5-193f2296d6ee,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:cbb47d6a-5e04-4618-9d48-5c5cde04d735,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:97294975-ca1b-4184-b7fa-6bdbb2160dac,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:c44e4261-b0cf-466e-b101-b4dbbaa6e4ab,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:4d91714b-f14d-448e-ac6c-146fb689b787,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:e6f6306d-deb5-493a-8555-373c5670b16e,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:1411ac49-70f5-4369-ab9b-33e4a0e39c1d,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:8b1b6172-5baa-48e2-847f-ce1f0da62c79,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:643d2eb4-a649-4b38-a44d-8d93798ea873,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:e3057798-31b0-44b6-b644-08ed2f34712e,hh_id,SET,AC-822,,Isaiah,Anomalies Resolution 3
-household,uuid:6bf75f4a-45bf-4218-8e69-321ea7f14ad7,hh_id,SET,AC-835,,Isaiah,Anomalies Resolution 3
-household,uuid:1a1b4d64-c22c-4cbc-8d60-770e17d31432,hh_id,SET,AC-814,,Isaiah,Anomalies Resolution 3
-household,uuid:e3057798-31b0-44b6-b644-08ed2f34712e,hh_id,SET,AC-822,,Isaiah,Anomalies Resolution 3
-household,uuid:6bf75f4a-45bf-4218-8e69-321ea7f14ad7,hh_id,SET,AC-835,,Isaiah,Anomalies Resolution 3
-household,uuid:b26ef08f-9a12-4064-97e7-77e37dcc6936,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:d7838492-d821-41b2-b07f-7ba3510fa31d,hh_id,SET,AL-813,,Isaiah,Anomalies Resolution 3
-household,uuid:d06735af-a4fa-41b6-98dd-618db452c7df,hh_id,SET,AE-809,,Isaiah,Anomalies Resolution 3
-household,uuid:77b42473-fec8-4a22-992a-1e2b306007b0,hh_id,SET,AL-678,,Isaiah,Anomalies Resolution 3
-household,uuid:746d2506-77f0-4c16-b5d9-41bde98ec8e9,hh_id,SET,AL-709,,Isaiah,Anomalies Resolution 3
-household,uuid:c75f7f48-c6d4-471e-be2c-280046d97a7a,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:87a58f83-cdf0-4424-89f0-8272175ef1da,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:4f34ead7-6311-4d57-81e0-e8572ca0b79b,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:3d60b6db-f2c2-4b56-a0e9-88ef67b28eb4,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:447d89b0-f611-445d-ad3d-af35ef029c29,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:fcaa9c37-347e-4093-b7f7-831edff4426d,hh_id,SET,AF-671,,Isaiah,Anomalies Resolution 3
-household,uuid:6a6d7664-ae52-47d8-b3a2-09c19486879a,hh_id,SET,AF-699,,Isaiah,Anomalies Resolution 3
-household,uuid:2f7df318-db94-4c8c-9924-7634b0f28c7b,hh_id,SET,AF-725,,Isaiah,Anomalies Resolution 3
-household,uuid:f7ea2258-8f7e-4ea6-b61c-6b38dc5f5297,hh_id,SET,AF-734,,Isaiah,Anomalies Resolution 3
-household,uuid:5c4f8fa3-7e5b-40ec-9f6c-c5a6882f379b,hh_id,SET,AF-676,,Isaiah,Anomalies Resolution 3
-household,uuid:878a0eee-5619-4179-a433-7dd13bfbcf98,hh_id,SET,AF-732,,Isaiah,Anomalies Resolution 3
-household,uuid:7b465e4b-ab84-4b12-a92a-e775474ad662,hh_id,SET,AF-642,,Isaiah,Anomalies Resolution 3
-household,uuid:dcf60a09-b229-4d8c-b032-04d4f45e0a78,hh_id,SET,AF-679,,Isaiah,Anomalies Resolution 3
-household,uuid:a2ba28a3-bd58-4474-8be0-3cbc549df4c9,hh_id,SET,AF-737,,Isaiah,Anomalies Resolution 3
-household,uuid:1b185dbd-5a5b-49c0-b09d-f9ee0e381a1e,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:093a9126-11d0-4884-9ed0-cfc05d77fc7a,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3
-household,uuid:7424ffec-b422-443d-a135-4f12f985a1a0,hh_id,SET,AL-307,,Isaiah,Anomalies Resolution 3
-household,uuid:ac86714b-5162-4bc0-928a-596b9217bf95,hh_id,SET,AL-273,,Isaiah,Anomalies Resolution 3
-household,uuid:96cda7f4-f299-4df0-82ef-14283ca4477d,hh_id,SET,AL-297,,Isaiah,Anomalies Resolution 3
-household,uuid:bf5df2a4-35df-459c-a33e-bce6fd142e31,hh_id,SET,AL-010,,Lawrence,Anomalies Resolution 4
-household,uuid:497c30a7-a150-435f-88c3-dcb49bc627b4,hh_id,SET,AL-020,,Lawrence,Anomalies Resolution 4
-household,uuid:24d9a48b-262d-4828-83ee-32eca82b540d,hh_id,SET,AE-212,,Lawrence,Anomalies Resolution 4
-household,uuid:1c33aea0-d7c0-4714-b83d-6f7d978ff633,hh_id,SET,AE-219,,Lawrence,Anomalies Resolution 4
-household,uuid:9ad073aa-7f05-4570-b0c4-35a8d0928c77,hh_id,SET,AJ-404,,Lawrence,Anomalies Resolution 4
-household,uuid:8dba4f73-1995-44da-960e-3d8e6ff96202,hh_id,SET,AJ-427,,Lawrence,Anomalies Resolution 4
-household,uuid:b7a4f523-fe56-425b-818f-adf975070493,hh_id,SET,AJ-429,,Lawrence,Anomalies Resolution 4
-household,uuid:ca9d5cae-05a3-40e5-b3e5-0866f0877ae0,hh_id,SET,AJ-432,,Lawrence,Anomalies Resolution 4
-household,uuid:608e353c-269b-4581-ad6b-fd2bb7d1dc0f,hh_id,SET,AJ-436,,Lawrence,Anomalies Resolution 4
-household,uuid:746f9cbb-e0b3-407c-844d-fd0e7e1e1df9,hh_id,SET,AJ-440,,Lawrence,Anomalies Resolution 4
-household,uuid:d63c3332-140d-4416-955c-79bc4793a9ae,hh_id,SET,AJ-446,,Lawrence,Anomalies Resolution 4
-household,uuid:3ac62e3c-0b85-4f5e-946b-86a0cbe94479,hh_id,SET,AJ-054,,Lawrence,Anomalies Resolution 4
-household,uuid:26a8ccaf-7db0-4002-988f-11748b044e30,hh_id,SET,AJ-094,,Lawrence,Anomalies Resolution 4
-household,uuid:e5b84c63-8a35-4229-a254-5a51d6bbb4f8,hh_id,SET,AH-844,,Lawrence,Anomalies Resolution 4
-household,uuid:cbf147e8-2752-4df8-8134-e1d6b3a5c7a4,hh_id,SET,AH-853,,Lawrence,Anomalies Resolution 4
-household,uuid:22ee4bfa-034d-4f3b-ba20-f67d744823ab,hh_id,SET,AH-854,,Lawrence,Anomalies Resolution 4
-household,uuid:f038d72c-0e26-4bd6-85ea-13d3dfa8bad5,hh_id,SET,AH-858,,Lawrence,Anomalies Resolution 4
-household,uuid:c4743c2e-5d8d-48d4-a530-431e9c5905cd,hh_id,SET,AH-869,,Lawrence,Anomalies Resolution 4
-household,uuid:3b46a042-aa25-4a11-8e9f-184885b529a5,hh_id,SET,AH-871,,Lawrence,Anomalies Resolution 4
-household,uuid:15af7a53-850e-45f9-a1b0-30ea8a4848eb,hh_id,DELETE,,,Lawrence,Anomalies Resolution 4
+Form,instanceID,Column,Operation,Set To,Notes (If Operation = Others),Submitted By,Resolution Details,Status
+registration,uuid:4393441c-6cd8-4971-93c1-6b4c0c81de1f,wid,SET,2042,,Isaiah,Anomalies Resolution 1,Done
+registration,uuid:7c900d1a-909e-4e39-b2dd-001ac334479e,wid,DELETE,,,Isaiah,Anomalies Resolution 1,Done
+registration,uuid:77b61879-8cd5-4d55-b4e5-ed7256cd97bc,wid,SET,2028,,Isaiah,Anomalies Resolution 1,Done
+registration,uuid:b57d075b-270d-4827-85fc-0f0a374605c9,wid,SET,2011,,Isaiah,Anomalies Resolution 1,Done
+registration,uuid:3757f2b9-271b-4ff9-ba42-3aa432b1fd60,wid,SET,2045,,Isaiah,Anomalies Resolution 1,Done
+registration,uuid:dc005579-ce38-4ecf-8312-f36402611dd8,wid,DELETE,,,Isaiah,Anomalies Resolution 1,Done
+registration,uuid:9a7bc546-d66b-46ce-afe5-b8d2143620c0,wid,DELETE,,,Isaiah,Anomalies Resolution 1,Done
+registration,uuid:7c624b87-f10e-46e4-a17c-c47d8b426d44,wid,DELETE,,,Isaiah,Anomalies Resolution 1,Done
+registration,uuid:ac320253-68ad-4003-949d-58411518ba41,wid,DELETE,,,Isaiah,Anomalies Resolution 1,Done
+registration,uuid:ab4013f7-7091-43df-9285-7486a0a84f94,wid,DELETE,,,Isaiah,Anomalies Resolution 1,Done
+registration,uuid:66dcc3ef-4d6b-4ef6-9b24-f4d36c3a565b,wid,DELETE,,,Isaiah,Anomalies Resolution 1,Done
+registration,uuid:2f6c94a0-b7e9-47a8-b7e6-f9aae412cdc8,wid,DELETE,,,Isaiah,Anomalies Resolution 1,Done
+registration,uuid:80bcc2de-56f9-44c4-8dfc-70c90cd43dfa,wid,DELETE,,,Isaiah,Anomalies Resolution 1,Done
+registration,uuid:43c8f5f5-7f9a-4cf1-8d9c-67128cf80ab8,wid,DELETE,,,Isaiah,Anomalies Resolution 1,Done
+registration,uuid:4f6cc00e-ff06-4daf-b16c-595a585bf74c,wid,DELETE,,,Isaiah,Anomalies Resolution 1,Done
+registration,uuid:a5e72155-dab4-486f-87f9-104d004e8a22,wid,DELETE,,,Isaiah,Anomalies Resolution 1,Done
+registration,uuid:91c0d545-5a3d-48e3-822c-170701ffe509,wid,DELETE,,,Isaiah,Anomalies Resolution 1,Done
+household,uuid:83bbf26c-bf79-4049-b106-38f74dc4e485,hh_id,SET,AD-257,,Eldo,Anomalies Resolution 2,Done
+household,uuid:604fb011-d2ef-4dda-affe-5b85d3c183bd,hh_id,SET,AD-217,,Eldo,Anomalies Resolution 2,Done
+household,uuid:6d3c9ad3-78fb-4ec8-954f-1ad0bbde52a6,hh_id,SET,AD-227,,Eldo,Anomalies Resolution 2,Done
+household,uuid:49ade55f-c78c-4294-ace6-27db43ca74c1,hh_id,SET,AD-503,,Eldo,Anomalies Resolution 2,Done
+household,uuid:999cc19d-021c-4a90-bda1-5e925c9b23ff,hh_id,SET,AD-502,,Eldo,Anomalies Resolution 2,Done
+household,uuid:f78431fc-f6e6-4195-a15d-55a31650281c,hh_id,SET,AD-504,,Eldo,Anomalies Resolution 2,Done
+household,uuid:8f3324d5-a4b8-4b09-a12d-2d52f96e3231,hh_id,SET,AD-505,,Eldo,Anomalies Resolution 2,Done
+household,uuid:dbc9607b-a5fd-4e91-aa2a-522582e95423,hh_id,SET,AD-506,,Eldo,Anomalies Resolution 2,Done
+household,uuid:cd882e2a-104e-4359-8f4c-64259e5f1558,hh_id,SET,AD-507,,Eldo,Anomalies Resolution 2,Done
+household,uuid:7014d4b4-cab2-4b82-9d7d-2751a601350d,hh_id,SET,AD-508,,Eldo,Anomalies Resolution 2,Done
+household,uuid:23ec9239-190f-426d-9738-a45cb43b5040,hh_id,SET,AA-667,,Eldo,Anomalies Resolution 2,Done
+household,uuid:e27419a1-24eb-45f2-a49c-384cc771112f,hh_id,SET,AA-708,,Eldo,Anomalies Resolution 2,Done
+household,uuid:fad18375-0351-4ec2-b71e-89b1457f00bd,hh_id,SET,AA-710,,Eldo,Anomalies Resolution 2,Done
+household,uuid:588631f6-f5c4-4e1d-9dca-f347513357e9,hh_id,SET,AA-709,,Eldo,Anomalies Resolution 2,Done
+household,uuid:fc540424-51ba-4214-8357-64e31529c667,hh_id,SET,AK-838,,Eldo,Anomalies Resolution 2,Done
+household,uuid:0a2c6287-758e-40f2-b353-535d93631080,hh_id,SET,AM-245,,Eldo,Anomalies Resolution 2,Done
+household,uuid:5d76c976-d4f2-46f7-9183-29eb4498e6dc,hh_id,SET,AC-614,,Eldo,Anomalies Resolution 2,Done
+household,uuid:2941ee91-343a-4090-b6b5-c16138cfcd0b,hh_id,SET,AC-701,,Eldo,Anomalies Resolution 2,Done
+household,uuid:c5a24774-1a1b-4ab9-9fac-bb63e26e9b49,hh_id,SET,AC-702,,Eldo,Anomalies Resolution 2,Done
+household,uuid:3f194d5a-5600-414a-86ee-bd1c51d67981,hh_id,SET,AC-703,,Eldo,Anomalies Resolution 2,Done
+household,uuid:ea702f10-9bfc-4aed-951d-15d99cc571a7,hh_id,SET,AC-704,,Eldo,Anomalies Resolution 2,Done
+household,uuid:0c18cb28-cc64-4fc5-b267-61a03edbec4f,hh_id,SET,AC-705,,Eldo,Anomalies Resolution 2,Done
+household,uuid:47a8688f-09a9-4685-baa7-0eb010316c33,hh_id,SET,AC-706,,Eldo,Anomalies Resolution 2,Done
+household,uuid:275b7078-0679-4763-83e6-a9552e717945,hh_id,SET,AD-709,,Eldo,Anomalies Resolution 2,Done
+household,uuid:ca3fe5f4-486f-4c5d-a25e-99095747c3f4,hh_id,SET,AD-710,,Eldo,Anomalies Resolution 2,Done
+household,uuid:1303461a-39da-48ec-b42d-a4050dffbbf6,hh_id,SET,AD-664,,Eldo,Anomalies Resolution 2,Done
+household,uuid:9c8fb6b3-37ef-43d5-a2e3-ef551ef3c650,hh_id,SET,AD-711,,Eldo,Anomalies Resolution 2,Done
+household,uuid:021310e0-7796-4d89-985f-c8dace46d053,hh_id,SET,AD-676,,Eldo,Anomalies Resolution 2,Done
+household,uuid:428adba9-8714-4e5d-85bb-428bcdb85974,hh_id,DELETE,,,Eldo,Anomalies Resolution 2,Done
+household,uuid:428adba9-8714-4e5d-85bb-428bcdb85974,hh_id,DELETE,,,Eldo,Anomalies Resolution 2,Done
+household,uuid:e62f0d59-e867-4750-a11b-3e27fba6f961,hh_id,SET,BA-801,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:e43e0fd2-42f9-49eb-87fb-7067010ed7d0,hh_id,SET,AM-954,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:80d7c59a-4067-466a-ba5b-3c8c30b46440,hh_id,SET,BA-805,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:3cf18d52-93a9-46a7-a471-5dabab86c2b5,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:546d3110-a2b2-4d3b-837c-003c74f017d3,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:deb7c6f3-bf73-463f-b640-b4c69a7549af,hh_id,SET,AF-408,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:f790b652-3c60-48b2-92f2-4c939b81a83e,hh_id,SET,AF-410,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:c1ef11bd-303d-439c-a690-af30ee74dc29,hh_id,SET,AF-427,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:174ba73d-1d0b-495c-b577-bc7352b2501c,hh_id,SET,AF-412,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:3f02bc1b-0418-40be-abd2-b861ce5b7962,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:dde62f40-5f7c-4426-bd97-a2810290e990,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:662538ea-4942-4e9b-816d-396cf0414576,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:c7d6cf19-9c25-49dd-a28b-a81a04e5c972,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:9400e6ad-fbd4-40e4-b0e1-76a678a536d4,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:da979b4b-6807-48d6-88e3-e77c1274b872,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:06a68d0a-a778-4896-b11e-e65952559805,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:ef5bc8ba-c2ac-4ed1-8cdd-1486740b05b8,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:97ed2e03-2bb1-4295-a3d5-193f2296d6ee,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:cbb47d6a-5e04-4618-9d48-5c5cde04d735,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:97294975-ca1b-4184-b7fa-6bdbb2160dac,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:c44e4261-b0cf-466e-b101-b4dbbaa6e4ab,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:4d91714b-f14d-448e-ac6c-146fb689b787,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:e6f6306d-deb5-493a-8555-373c5670b16e,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:1411ac49-70f5-4369-ab9b-33e4a0e39c1d,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:8b1b6172-5baa-48e2-847f-ce1f0da62c79,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:643d2eb4-a649-4b38-a44d-8d93798ea873,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:e3057798-31b0-44b6-b644-08ed2f34712e,hh_id,SET,AC-822,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:6bf75f4a-45bf-4218-8e69-321ea7f14ad7,hh_id,SET,AC-835,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:1a1b4d64-c22c-4cbc-8d60-770e17d31432,hh_id,SET,AC-814,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:e3057798-31b0-44b6-b644-08ed2f34712e,hh_id,SET,AC-822,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:6bf75f4a-45bf-4218-8e69-321ea7f14ad7,hh_id,SET,AC-835,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:b26ef08f-9a12-4064-97e7-77e37dcc6936,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:d7838492-d821-41b2-b07f-7ba3510fa31d,hh_id,SET,AL-813,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:d06735af-a4fa-41b6-98dd-618db452c7df,hh_id,SET,AE-809,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:77b42473-fec8-4a22-992a-1e2b306007b0,hh_id,SET,AL-678,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:746d2506-77f0-4c16-b5d9-41bde98ec8e9,hh_id,SET,AL-709,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:c75f7f48-c6d4-471e-be2c-280046d97a7a,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:87a58f83-cdf0-4424-89f0-8272175ef1da,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:4f34ead7-6311-4d57-81e0-e8572ca0b79b,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:3d60b6db-f2c2-4b56-a0e9-88ef67b28eb4,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:447d89b0-f611-445d-ad3d-af35ef029c29,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:fcaa9c37-347e-4093-b7f7-831edff4426d,hh_id,SET,AF-671,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:6a6d7664-ae52-47d8-b3a2-09c19486879a,hh_id,SET,AF-699,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:2f7df318-db94-4c8c-9924-7634b0f28c7b,hh_id,SET,AF-725,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:f7ea2258-8f7e-4ea6-b61c-6b38dc5f5297,hh_id,SET,AF-734,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:5c4f8fa3-7e5b-40ec-9f6c-c5a6882f379b,hh_id,SET,AF-676,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:878a0eee-5619-4179-a433-7dd13bfbcf98,hh_id,SET,AF-732,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:7b465e4b-ab84-4b12-a92a-e775474ad662,hh_id,SET,AF-642,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:dcf60a09-b229-4d8c-b032-04d4f45e0a78,hh_id,SET,AF-679,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:a2ba28a3-bd58-4474-8be0-3cbc549df4c9,hh_id,SET,AF-737,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:1b185dbd-5a5b-49c0-b09d-f9ee0e381a1e,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:093a9126-11d0-4884-9ed0-cfc05d77fc7a,hh_id,DELETE,,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:7424ffec-b422-443d-a135-4f12f985a1a0,hh_id,SET,AL-307,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:ac86714b-5162-4bc0-928a-596b9217bf95,hh_id,SET,AL-273,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:96cda7f4-f299-4df0-82ef-14283ca4477d,hh_id,SET,AL-297,,Isaiah,Anomalies Resolution 3,Done
+household,uuid:bf5df2a4-35df-459c-a33e-bce6fd142e31,hh_id,SET,AL-010,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:497c30a7-a150-435f-88c3-dcb49bc627b4,hh_id,SET,AL-020,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:24d9a48b-262d-4828-83ee-32eca82b540d,hh_id,SET,AE-212,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:1c33aea0-d7c0-4714-b83d-6f7d978ff633,hh_id,SET,AE-219,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:9ad073aa-7f05-4570-b0c4-35a8d0928c77,hh_id,SET,AJ-404,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:8dba4f73-1995-44da-960e-3d8e6ff96202,hh_id,SET,AJ-427,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:b7a4f523-fe56-425b-818f-adf975070493,hh_id,SET,AJ-429,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:ca9d5cae-05a3-40e5-b3e5-0866f0877ae0,hh_id,SET,AJ-432,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:608e353c-269b-4581-ad6b-fd2bb7d1dc0f,hh_id,SET,AJ-436,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:746f9cbb-e0b3-407c-844d-fd0e7e1e1df9,hh_id,SET,AJ-440,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:d63c3332-140d-4416-955c-79bc4793a9ae,hh_id,SET,AJ-446,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:3ac62e3c-0b85-4f5e-946b-86a0cbe94479,hh_id,SET,AJ-054,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:26a8ccaf-7db0-4002-988f-11748b044e30,hh_id,SET,AJ-094,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:e5b84c63-8a35-4229-a254-5a51d6bbb4f8,hh_id,SET,AH-844,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:cbf147e8-2752-4df8-8134-e1d6b3a5c7a4,hh_id,SET,AH-853,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:22ee4bfa-034d-4f3b-ba20-f67d744823ab,hh_id,SET,AH-854,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:f038d72c-0e26-4bd6-85ea-13d3dfa8bad5,hh_id,SET,AH-858,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:c4743c2e-5d8d-48d4-a530-431e9c5905cd,hh_id,SET,AH-869,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:3b46a042-aa25-4a11-8e9f-184885b529a5,hh_id,SET,AH-871,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:15af7a53-850e-45f9-a1b0-30ea8a4848eb,hh_id,DELETE,,,Lawrence,Anomalies Resolution 4,Done
+household,uuid:362d80a6-fb7a-4685-af5a-549838ec2e6f,hh_id,SET,AQ-021,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:9fc1d137-3f36-4452-a5a6-1a7968916c4a,hh_id,SET,AQ-032,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:6de2e9e0-d5dd-4c08-868c-f2efa95936d5,hh_id,SET,AQ-042,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:0a8c8995-b5c0-40ff-b102-4f2c9f9950a3,hh_id,SET,AQ-047,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:3a61fe66-e95d-4b3f-940e-ebedd41e34a8,hh_id,SET,AQ-050,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:dfb262fb-a633-42cb-86b4-bd498305d699,hh_id,SET,AQ-075,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:702ff6e8-ff38-4466-ad01-5d00189d8c46,hh_id,SET,AQ-084,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:72f18108-8a3f-41fd-a16d-38cd071d3642,hh_id,SET,AQ-089,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:656b09f6-cee3-43a7-a286-f6fbc5424aac,hh_id,SET,AQ-093,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:74c3c777-b04f-4bd6-8a9f-2140feae322c,hh_id,SET,AQ-105,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:f1b4e1e0-88c1-406a-9c8a-48284fe85d4d,hh_id,SET,AQ-096,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:dbfb947f-4858-47ba-a480-7e173f0225c9,,DELETE,,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:a0e6c0d2-5c5a-4089-834b-c5dd716242c5,,DELETE,,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:918c98de-7902-431e-9c10-a1cdfc8a05ea,hh_id,SET,AN-500,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:2509576a-7b43-4417-94ff-931c084d432a,hh_id,SET,AN-501,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:37b2c2ed-f16a-48b3-9ccb-2c6327f788d1,hh_id,SET,AN-502,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:6eb0578d-9348-484d-a369-2d28e0d7ab50,hh_id,SET,AN-504,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:97c0885e-6160-461e-a8f1-1ed7133c9e96,hh_id,SET,AN-503,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:958c2047-dac8-448a-8b2a-24a521974f36,hh_id,SET,AX-238,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:94c28c8d-e56e-4b5b-96a9-30f14825e38e,hh_id,SET,AX-314,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:61a344c5-fd4b-43e2-b149-46ae86104f1c,hh_id,SET,AX-243,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:93d78af4-05df-4fa1-8b7a-99ba71764fa5,hh_id,SET,AX-315,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:ae6cb655-9dc9-48a1-8f54-7b9317451dbf,hh_id,SET,AX-298,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:44f45fee-ef9e-4b75-bc11-2c747500640c,hh_id,SET,AU-104,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:20826c0b-b08e-4478-8346-1c8277d958c7,hh_id,SET,AU-297,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:dac61419-7c60-4af1-adb0-28912ac4eeac,hh_id,SET,AU-298,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:c106834f-9c3f-4215-aa5d-b5df9af134be,hh_id,SET,AU-299,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:b143769b-05dc-4585-aa13-c759abfbcb1c,,DELETE,,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:54d770cb-3d44-4496-9a70-c786062577d1,hh_id,SET,AE-146,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:18e96dfe-16dd-4a50-92d3-395fcf0c8ec4,hh_id,SET,AE-147,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:9ca6efd5-eaaf-4d4e-8e3e-6ea8d32cc7f7,hh_id,SET,AE-064,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:7a6eeea6-3748-475e-ba69-217edd6b851a,hh_id,SET,AE-091,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:ca77e839-2f83-4860-86e1-c44f9bd2584a,hh_id,SET,AE-132,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:09f6e3d3-9023-490b-8037-70f2a7142911,hh_id,SET,AU-521,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:3ef745b8-ba8f-4a3c-a4c8-d11da25adc4f,hh_id,SET,AU-833,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:b35fb161-b342-46a5-89bc-0e1d8be97107,,DELETE,,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:62d4ad20-c21d-4574-bc20-edcb5cdcff0f,hh_id,SET,BP-664,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:e7ce7e6d-f2d3-410a-8230-f22f49e7a0cb,hh_id,SET,AP-503,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:81752d55-8c89-47d0-ab71-786a734acbef,hh_id,SET,AP-504,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:e0611630-a363-4825-9194-982d513303a4,hh_id,SET,AP-505,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:11a9ccf6-819d-4f8c-be74-52193026dddf,hh_id,SET,AP-487,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:232d8043-85ba-4b24-81a1-83b19ad182a0,hh_id,SET,AP-493,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:05d6f76a-6a06-45bf-bf3d-0a3b27528bd3,hh_id,SET,AR-715,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:8d28d4a9-b6fd-414c-b0c1-e1b40ba70084,hh_id,SET,AR-642,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:11359088-429a-4fd8-874c-c755fa0e03a9,hh_id,SET,AR-716,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:67ae769b-2c6e-48b4-8360-8d4527bcb3d0,hh_id,SET,AR-717,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:eb99854f-f651-486e-8e50-b24959772d30,hh_id,SET,AR-718,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:d645eb5b-d62f-45b2-8c4f-2678c0474717,hh_id,SET,AR-719,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:2d1bc746-5907-4bbb-9941-08b2bc4a1d1a,hh_id,SET,AR-720,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:c70c8395-94b9-4d3e-b120-17d49add3d35,hh_id,SET,AD-077,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:50f67d59-5a3a-4cce-babd-020ef44a868a,hh_id,SET,AD-101,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:c86b95d4-6cda-4d4a-a206-35d84d986045,hh_id,SET,AP-817,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:86e55bf7-6742-45af-8352-772f8bb9787a,hh_id,SET,AP-872,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:e94507ab-fae3-4b38-90fb-c153994b2490,hh_id,SET,AP-873,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:60f16d5c-7eeb-4406-ac96-ee1dafd50f1e,hh_id,SET,AP-874,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:146cbd58-3923-4fd6-99fe-5d5715f1e100,hh_id,SET,AX-701,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:8ee80f13-7e46-44b8-9249-dfb0d0fc256e,hh_id,SET,AX-702,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:bd5c605a-3446-4872-b7be-09952e3610fd,hh_id,SET,AX-703,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:bc57a807-350a-48e6-8d57-f46a6a5dcba8,hh_id,SET,AX-704,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:3806d2db-223a-40a6-ab0d-e2774ddbd7db,hh_id,SET,AX-705,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:8d246ceb-e070-468c-8680-d2612c9048fd,hh_id,SET,AZ-481,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:9080b2f6-6e33-4e49-ad5c-bf091eeed8d3,hh_id,SET,AZ-448,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:248731dd-1580-41c1-aae2-c1983050acd4,hh_id,SET,AZ-452,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:176da26e-6b7a-4444-859c-334ac9bc6ad7,hh_id,SET,AZ-463,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:e7a68f31-28f3-419f-bb25-d3ff0909ff67,,DELETE,,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:17d47371-2ee1-4c89-b4b9-b75a9919b80b,,DELETE,,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:e3b635bf-5776-4610-9c74-275115b9cadc,,DELETE,,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:1ccf2793-681f-4671-9826-5a36d865782c,,DELETE,,,Eldo,Anomalies Resolution 5,Not Done
+household,uuid:e93ebf0f-6af7-4d7a-a1d9-3ddf6d5d256b,,DELETE,,,Eldo,Anomalies Resolution 5,Not Done
