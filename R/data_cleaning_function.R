@@ -24,8 +24,16 @@ batch_set_row_values <- function(data,
                                  change_data_type_funs = NULL){
 
   mapping <- mapping %>%
-    distinct() %>%
-    dplyr::filter(Column == col) %>%
+    dplyr::filter(Column == col)
+
+  to_drop <- mapping %>%
+    dplyr::group_by(instanceID, Column) %>%
+    dplyr::summarise(n = dplyr::n(), .groups = "drop") %>%
+    dplyr::filter(n > 1L)
+
+  mapping <- mapping %>%
+    distinct(.) %>%
+    dplyr::anti_join(to_drop, by=c("instanceID", "Column")) %>%
     tidyr::pivot_wider(names_from = Column,
                        values_from = `Set To`,
                        id_cols = instanceID) %>%

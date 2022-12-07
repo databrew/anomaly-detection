@@ -19,7 +19,7 @@ ANOMALIES_S3_FILE_KEY <- "kwale/anomalies/anomalies.csv"
 
 get_registration_data <- function(){
   # Kwale Registration Forms
-  filename <- tempfile()
+  filename <- tempfile(fileext = ".csv")
   bucket_name <- S3_BUCKET_NAME
   get_s3_data(
     s3obj = svc,
@@ -31,8 +31,8 @@ get_registration_data <- function(){
 }
 
 get_household_data <- function(){
-  # Kwale Registration Forms
-  filename <- tempfile()
+  # Kwale Household Forms
+  filename <- tempfile(fileext = ".csv")
   get_s3_data(
     s3obj = svc,
     bucket= S3_BUCKET_NAME,
@@ -42,10 +42,12 @@ get_household_data <- function(){
     as_tibble()
 }
 
+
 # get registration data and its anomalies
 reconaregistration <- get_registration_data()
 reconbhousehold <- get_household_data()
-anomaly_list <- dplyr::bind_rows(
+
+current_anomaly_list <- dplyr::bind_rows(
   reconaregistration %>%
     get_duplicated_chv_id(.),
   reconaregistration %>%
@@ -57,12 +59,29 @@ anomaly_list <- dplyr::bind_rows(
   ###############################################################
   # append more here, place function in anomaly_detection_function
   ###############################################################
-)
+) %>%
+  dplyr::mutate(run_date = as.Date(lubridate::now()))
 
 
 # save data to s3
+partition_key = glue::glue("kwale/anomalies/anomalies-identification-history/run_date={date}/anomalies.csv",
+                 date = as.Date(lubridate::now()))
+
+# save as timestamp table
 filename <- tempfile(fileext = ".csv")
-anomaly_list %>%
+current_anomaly_list %>%
+  fwrite(filename, row.names = FALSE)
+save_to_s3_bucket(
+  s3obj = svc,
+  file_path = filename,
+  bucket_name = S3_BUCKET_NAME,
+  object_key = partition_key)
+
+
+# stopgap: save as is (will be deprecated) as we need time-series data to track
+# fieldworker performance
+filename <- tempfile(fileext = ".csv")
+current_anomaly_list %>%
   fwrite(filename, row.names = FALSE)
 save_to_s3_bucket(
   s3obj = svc,
