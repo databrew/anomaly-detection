@@ -16,27 +16,28 @@ S3_BUCKET_NAME <- glue::glue(Sys.getenv('BUCKET_PREFIX'), 'databrew.org')
 
 INPUT_KEY <- list(
   household =  'kwale/raw-form/reconbhousehold/reconbhousehold.csv',
-  registration = "kwale/raw-form/reconaregistration/reconaregistration.csv"
+  registration = "kwale/raw-form/reconaregistration/reconaregistration.csv",
+  resolution = "kwale/anomalies/anomalies-resolution/anomalies-resolution.csv"
 )
 
 OUTPUT_KEY <- list(
   household = 'kwale/clean-form/reconbhousehold/reconbhousehold.csv',
-  registration = "kwale/clean-form/reconaregistration/reconaregistration.csv",
-  resolution = "kwale/anomalies/anomalies-resolution/anomalies-resolution.csv"
+  registration = "kwale/clean-form/reconaregistration/reconaregistration.csv"
 )
-
-GSHEETS_METADATA <- list(
-  id = "1i98uVuSj3qETbrH7beC8BkFmKV80rcImGobBvUGuqbU",
-  sheet = 'anomalies-form')
-
 
 
 # read local resolution file
-get_resolution_from_gsheets <- function() {
-  read_sheet(
-    ss = GSHEETS_METADATA$id,
-    sheet = GSHEETS_METADATA$sheet) %>%
-    dplyr::mutate(`Set To` = as.character(`Set To`))
+get_resolution <- function() {
+  filename <- tempfile()
+  bucket_name <- S3_BUCKET_NAME
+  get_s3_data(
+    s3obj = svc,
+    bucket= S3_BUCKET_NAME,
+    object_key = INPUT_KEY$resolution, # change this to clean data
+    filename = filename) %>%
+    fread(.) %>%
+    as_tibble() %>%
+    as_tibble(.name_repair = 'unique')
 }
 
 
@@ -67,24 +68,16 @@ get_household_data <- function(){
     as_tibble(.name_repair = 'unique')
 }
 
-
-# resolution data
-resolution_data <- get_resolution_from_gsheets()
-filename <- tempfile(fileext = ".csv")
-resolution_data %>%
-  fwrite(filename, row.names = FALSE)
-save_to_s3_bucket(
-  s3obj = svc,
-  file_path = filename,
-  bucket_name = S3_BUCKET_NAME,
-  object_key = OUTPUT_KEY$resolution)
+# get resolution data
+resolution_data <- get_resolution()
 
 
-# get registration forms and cleand ataset
+# get registration forms and clean dataset
 filename <- tempfile(fileext = ".csv")
 registration <- get_registration_data() %>%
   clean_registration_data(., resolution_data)
 
+# save registration file
 registration %>%
   fwrite(filename, row.names = FALSE)
 save_to_s3_bucket(
@@ -96,8 +89,12 @@ save_to_s3_bucket(
 
 # get household forms and clean dataset
 filename <- tempfile(fileext = ".csv")
+
+# clean household
 household <- get_household_data() %>%
   clean_household_data(., resolution_data)
+
+# save to s3 bucket
 household %>% fwrite(filename, row.names = FALSE)
 save_to_s3_bucket(
   s3obj = svc,
