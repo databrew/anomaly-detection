@@ -71,10 +71,10 @@ delete_row_values <- function(data, instanceIDs = NULL){
 #' This script is purposed to be cleaning function for data from s3 and saved to cleaned table
 #' @param data
 #' @return cleaned household data
-clean_household_data <- function(data){
+clean_household_data <- function(data, resolution_file){
 
   # read local resolution file
-  resolution_file <- fread("assets/anomalies-resolution.csv") %>%
+  resolution_file <- resolution_file %>%
     dplyr::filter(Form == 'household') %>%
     tibble::as_tibble()
 
@@ -103,10 +103,10 @@ clean_household_data <- function(data){
 #' Function to clean registration forms
 #' @param data registration forms
 #' @return clean registration form
-clean_registration_data <- function(data){
+clean_registration_data <- function(data, resolution_file){
 
     # read local resolution file
-    resolution_file <- fread("assets/anomalies-resolution.csv") %>%
+    resolution_file <- resolution_file %>%
       dplyr::filter(Form == 'registration') %>%
       tibble::as_tibble()
 
