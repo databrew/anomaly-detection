@@ -28,7 +28,7 @@ anomalies_summary <- s3obj$list_objects_v2(
       filename = filename) %>%
       fread() %>%
       as_tibble() %>%
-      dplyr::group_by(run_date) %>%
+      dplyr::group_by(run_date, type) %>%
       dplyr::summarise(number_of_anomalies = n()) %>%
       dplyr::mutate(run_date = lubridate::as_date(run_date))
   })
